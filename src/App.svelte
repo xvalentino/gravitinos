@@ -9,8 +9,8 @@
 </script>
 <main>
 	<h1 class='title'>Gravitinos</h1>
-	<p>Professional Web Developer 🕸</p>
-	<p>Everything else is for fun</p>
+	<p>Web Developer for money 🕸</p>
+	<p>Everything else for fun</p>
 	<div class='links'>
 		<a class='link' href="https://github.com/xvalentino"><div class='icon'><FaGithubAlt /></div>Github</a>
 		<a class='link' href="https://soundcloud.com/gravitinos-98277575"><div class='icon'><FaSoundcloud /></div>Soundcloud</a>
@@ -50,10 +50,10 @@
 	}
 
 	.title {
-		color: purple;
+		color: white;
 		text-transform: lowercase;
 		font-size: 4em;
-		font-weight: 100;
+		font-weight: 150;
 	}
 
 	@media (min-width: 640px) {
