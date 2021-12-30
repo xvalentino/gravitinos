@@ -9,8 +9,7 @@
 </script>
 <main>
 	<h1 class='title'>Gravitinos</h1>
-	<p>Web Developer for money 🕸</p>
-	<p>Everything else for fun</p>
+	<p>Web Developer 🕸</p>
 	<div class='links'>
 		<a class='link' href="https://github.com/xvalentino"><div class='icon'><FaGithubAlt /></div>Github</a>
 		<a class='link' href="https://soundcloud.com/gravitinos-98277575"><div class='icon'><FaSoundcloud /></div>Soundcloud</a>
