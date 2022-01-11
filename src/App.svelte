@@ -46,6 +46,9 @@
 		flex-direction:column;
 		justify-content: center;
 		padding: 1rem;
+		border-radius: 50px;
+		color: white;
+		border: 3px solid #f4f4f4;
 	}
 
 	.title {
