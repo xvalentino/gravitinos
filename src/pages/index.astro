@@ -1,0 +1,95 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Valentino Espinoza">
+	<main>
+		<h1><span class="text-gradient">Gravitinos</span></h1>
+		<p class="instructions">
+			My name is Valentino Espinoza. I'm interested in software development, music production, fashion, and streaming video games.
+		</p>
+		<ul role="list" class="link-card-grid">
+			<Card
+				href="https://twitch.tv/gravitinos"
+				title="Twitch"
+				body="Hangout in my livestreams. I like to play videogames"
+			/>
+			<Card
+				href="https://instagram.com/gravitinos"
+				title="Instagram"
+				body="I like to share photos periodically, and do personal rebrands often"
+			/>
+			<Card
+				href="https://github.com/xvalentino"
+				title="Github"
+				body="Visit some of my code repositories."
+			/>
+			<Card
+				href="https://discord.gg/2gWGKNGFEE"
+				title="Discord"
+				body="My discord community."
+			/>
+			<Card
+				href="https://twitter.com/gravitinos"
+				title="Twitter"
+				body="I tweet."
+			/>
+			<Card
+				href="https://www.youtube.com/channel/UCampr6MQmkwZPLI2-fzKRXQ"
+				title="Youtube"
+				body="If I post on Youtube ever."
+			/>
+			<Card
+				href="https://soundcloud.com/gravitinos-98277575"
+				title="Soundcloud"
+				body="Tune into the music I post."
+			/>
+		</ul>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 60ch;
+	}
+	h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+	.text-gradient {
+		background-image: var(--accent-gradient);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-size: 400%;
+		background-position: 0%;
+	}
+	.instructions {
+		line-height: 1.6;
+		margin: 1rem 0;
+		border: 1px solid rgba(var(--accent), 25%);
+		background-color: white;
+		padding: 1rem;
+		border-radius: 0.4rem;
+	}
+	.instructions code {
+		font-size: 0.875em;
+		font-weight: bold;
+		background: rgba(var(--accent), 12%);
+		color: rgb(var(--accent));
+		border-radius: 4px;
+		padding: 0.3em 0.45em;
+	}
+	.instructions strong {
+		color: rgb(var(--accent));
+	}
+	.link-card-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+		gap: 1rem;
+		padding: 0;
+	}
+</style>
